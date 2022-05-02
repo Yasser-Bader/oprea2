@@ -6,6 +6,7 @@
     text-transform: capitalize;
     text-decoration: none;
 }
+
 html{
     font-size: 62.5%;
     overflow-x: hidden;
@@ -16,7 +17,7 @@ html{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 .header{
     display: flex;
@@ -27,18 +28,18 @@ html{
 }
 .header .navbar a{
     font-size: 1.7rem;
-    margin-left: 1rem;
+    margin-left: 2rem;
     color: white;
     text-decoration: none;
 }
 .header .navbar a:hover{
-    background: #ffc61a;
+    background: #f3b600;
     padding: .5rem 3rem;
     border-radius: 15px;
 }
 #menu-bars{
     color: white;
-    font-size: 2rem;
+    font-size: 1rem;
     display: none;
 
 }
@@ -50,7 +51,7 @@ html{
     color: white;
     font-size: 50px;
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -59,8 +60,8 @@ html{
     color: #ffc61a;
 }
 .taxi-image{
-    width: 50%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 10 auto;
 }
 .taxi-image img{
     width: 100%;
@@ -86,14 +87,19 @@ html{
     padding: 2rem;
 }
 .inner-content h3{
-    font-size: 31px;
+    font-size: 40px;
+    color: rgb(126, 255, 87);
+
 }
 .inner-content h2{
-    font-size: 38px;
+    font-size: 45px;
+    color: rgb(250, 245, 245);
 }
 .inner-content p{
-    font-size: 1.5rem;
+    font-size: 2rem;
     padding-bottom: 1rem;
+    color: rgb(115, 77, 255);
+
 }
 .inner-content .booknow{
     padding: 1rem 3rem;
@@ -117,7 +123,7 @@ background: white;
 }
 .contact-form{
     width: 45rem;
-    background: white;
+    background: hsl(0, 100%, 100%);
     text-align: center;
     padding: 2rem 1rem;
     margin: 0 auto;
@@ -143,7 +149,12 @@ background: white;
 .main-tariff{
     padding: 3rem 7%;
    
-   
+   border-radius: 25p;
+}
+.main-tariff img{ 
+   border-radius: 100%;
+   -webkit-border-radius: 100%;
+   -moz-border-radius: 100%;
 }
 .main-tariff h1{
     font-size: 38px;
@@ -262,6 +273,7 @@ background: white;
     background-position: center;
     width: 100%;
 }
+
 .testimonials .heading-test{
     color: #ffc61a;
     font-size: 38px;
@@ -275,6 +287,11 @@ background: white;
     gap: 15px;
     padding: 2rem 7%;
 }
+.testimonials img{ 
+    border-radius: 505%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+ }
 .inner-test{
     flex: 1 1 45rem;
     color: white;
