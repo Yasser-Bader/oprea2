@@ -17,7 +17,7 @@ html{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 80vh;
+    height: 50%;
 }
 .header{
     display: flex;
@@ -60,12 +60,12 @@ html{
     color: #ffc61a;
 }
 .taxi-image{
-    width: 80%;
-    margin: 10 auto;
+    width: 100%;
+    margin: 20 auto;
 }
 .taxi-image img{
     width: 100%;
-    margin-top: 260px;
+    margin-top: 40%;
 }
 .home-container{
     background: #ffc61a;
